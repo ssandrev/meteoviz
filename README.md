@@ -1,13 +1,12 @@
 # MeteoViz
 
-## Breve Descrição
 O MeteoViz é uma ferramenta interativa que permite aos usuários explorar e analisar variáveis meteorológicas. As principais funções do programa incluem:
 
 - Upload de dados meteorológicos em formatos CSV e Excel.
 - Criação de gráficos de séries temporais, mapas espaciais, gráficos de dispersão e histogramas.
 - Ferramentas de análise estatística para calcular estatísticas descritivas, correlações, tendências e anomalias nos dados.
 
-Este programa foi concebido para atender principalmente pesquisadores especializados em meteorologia, climatologia e áreas relacionadas, bem como estudantes e professores dessas disciplinas. É uma ferramenta utilitária acabada que pode ser utilizada tanto para fins educacionais quanto de pesquisa. Até o atual momento é necessário conhecimento de programação para iniciar o projeto.
+Este programa foi concebido para atender principalmente pesquisadores especializados em meteorologia, climatologia e áreas relacionadas, bem como estudantes e professores dessas disciplinas. É uma ferramenta utilitária que pode ser utilizada tanto para fins educacionais quanto de pesquisa. Até o atual momento é necessário conhecimento de programação para iniciar o projeto.
 
 ## Visão de Projeto
 
