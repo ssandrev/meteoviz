@@ -13,9 +13,8 @@
     - Abra o terminal (ou prompt de comando) e navegue até o diretório onde deseja clonar o repositório.
     - Execute o comando:
       ```sh
-      git clone <URL_do_repositorio>
+      git clone https://github.com/ssandrev/meteoviz.git
       ```
-    - Substitua `<URL_do_repositorio>` pelo URL real do repositório MeteoViz.
 
 3. **Instalar Dependências**:
     - Navegue até o diretório do projeto clonado:
@@ -38,3 +37,22 @@
     - Abra um navegador web e digite o endereço fornecido no terminal (por exemplo, `http://127.0.0.1:8050`).
     - Você verá a interface do MeteoViz onde pode começar a carregar dados e gerar visualizações.
 
+## Arquivos de Teste
+
+### Arquivos Disponíveis na Release do Projeto
+
+Para facilitar o teste e validação da aplicação MeteoViz, foram disponibilizados alguns arquivos de exemplo na seção de releases do nosso projeto no GitHub. Esses arquivos incluem dados meteorológicos e de localização de sensores que podem ser carregados na aplicação para gerar visualizações. Siga os passos abaixo para acessar e usar esses arquivos:
+
+1. **Acesse a Seção de Releases**:
+    - Vá para a página do repositório MeteoViz no GitHub.
+    - Clique na aba "Releases" para ver todas as versões disponíveis.
+
+2. **Baixe os Arquivos de Teste**:
+    - Na última release, você encontrará um conjunto de arquivos para teste.
+    - Baixe os arquivos desejados para o seu computador.
+
+3. **Carregue os Arquivos na Aplicação**:
+    - Na interface do MeteoViz, você pode usar a opção de upload para carregar os arquivos de teste baixados.
+    - Siga as instruções na interface para visualizar e analisar os dados.
+
+Esses arquivos de teste são fornecidos para garantir que você possa explorar todas as funcionalidades do MeteoViz sem precisar de dados próprios inicialmente.
