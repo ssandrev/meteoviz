@@ -19,6 +19,7 @@ custom_css = {
         'padding': '5px',
         'border-radius': '5px',
         'border': '1px solid #007bff',
+        'flex-grow': '1',
     },
     'dropdown': {
         'margin': '10px',
