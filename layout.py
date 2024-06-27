@@ -9,20 +9,18 @@ def create_layout():
         ]),
         dbc.Row([
             dbc.Col(
-                html.Button("Add Tab", id='add-tab-button', n_clicks=0, style=custom_css['button']),
-                width=2
+                html.Div([
+                    html.Button("Add Tab", id='add-tab-button', n_clicks=0, style=custom_css['button']),
+                    dcc.Input(id='new-tab-name', type='text', placeholder='Enter tab name', style=custom_css['input']),
+                ], style={'display': 'flex', 'align-items': 'center'}),
+                width=5
             ),
             dbc.Col(
-                dcc.Input(id='new-tab-name', type='text', placeholder='Enter tab name', style=custom_css['input']),
-                width=3
-            ),
-            dbc.Col(
-                html.Button("Rename Tab", id='rename-tab-button', n_clicks=0, style=custom_css['button']),
-                width=2
-            ),
-            dbc.Col(
-                dcc.Input(id='rename-tab-name', type='text', placeholder='Enter new tab name', style=custom_css['input']),
-                width=3
+                html.Div([
+                    html.Button("Rename Tab", id='rename-tab-button', n_clicks=0, style=custom_css['button']),
+                    dcc.Input(id='rename-tab-name', type='text', placeholder='Enter new tab name', style=custom_css['input']),
+                ], style={'display': 'flex', 'align-items': 'center'}),
+                width=7
             )
         ]),
         dbc.Row([
